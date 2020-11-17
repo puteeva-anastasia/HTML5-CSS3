@@ -1504,5 +1504,13 @@ button {
     .main-footer-dribbble-widget-img {
       width: 100px;
       height: auto; } }
+@media (min-width: 0px) and (max-width: 480px) {
+  .padding-main-header {
+    padding: 20px 20px 20px 20px; }
+
+  .main-header {
+    width: auto; }
+    .main-header-menu-list-item {
+      margin: 0 0 0 -120px; } }
 
 /*# sourceMappingURL=style.css.map */
