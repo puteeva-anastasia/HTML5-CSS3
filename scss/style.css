@@ -628,9 +628,7 @@ button {
     top: 0;
     left: 0;
     border: none;
-    outline: none;
-    background-image: url(../video/studying-outdoor.jpg);
-    background-color: #c7b299; }
+    outline: none; }
   .presentation-wrp {
     position: absolute;
     max-width: 561px;
