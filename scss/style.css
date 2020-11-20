@@ -628,7 +628,9 @@ button {
     top: 0;
     left: 0;
     border: none;
-    outline: none; }
+    outline: none;
+    background-image: url(../video/studying-outdoor.jpg);
+    background-color: #c7b299; }
   .presentation-wrp {
     position: absolute;
     max-width: 561px;
@@ -1514,10 +1516,12 @@ button {
   .padding-main-footer-copyright {
     padding: 20px 0 15px 0; }
 
-  .main-header-menu-list-item {
-    margin: 0 0 0 -100px; }
-    .main-header-menu-list-item:last-child {
-      margin: 0 0 0 -100px; }
+  .main-header-menu-list {
+    margin: 0; }
+    .main-header-menu-list-item {
+      margin: 0 0 0 -177px; }
+      .main-header-menu-list-item:last-child {
+        margin: 0 0 0 -177px; }
 
   .services-wrp:after {
     height: 2px; }
@@ -1569,6 +1573,8 @@ button {
     width: 100%; }
   .recent-posts-item-wrp {
     width: 100%; }
+  .recent-posts-item-read-more:after {
+    display: none; }
   .recent-posts-title {
     font-size: 20px; }
   .recent-posts-txt {
