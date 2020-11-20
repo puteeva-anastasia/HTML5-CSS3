@@ -1558,6 +1558,8 @@ button {
 
   .counters-wrp {
     width: 45%; }
+    .counters-wrp:after {
+      height: 1px; }
   .counters-title {
     font-size: 40px; }
   .counters-subtitle {
@@ -1576,7 +1578,7 @@ button {
     flex-wrap: wrap;
     justify-content: space-evenly; }
     .partners-logo {
-      margin: 10px 0 10px 0; }
+      margin: 10px 10px 10px 10px; }
 
   .main-footer-block {
     justify-content: flex-start; }

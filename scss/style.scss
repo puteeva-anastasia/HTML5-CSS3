@@ -2495,6 +2495,10 @@ button {
         
         &-wrp{
             width: 45%;
+            
+            &:after{
+                height: 1px;
+            }
         }
         
         &-title{
@@ -2533,7 +2537,7 @@ button {
         justify-content: space-evenly;
         
         &-logo{
-            margin: 10px 0 10px 0;
+            margin: 10px 10px 10px 10px;
         }
     }
     
